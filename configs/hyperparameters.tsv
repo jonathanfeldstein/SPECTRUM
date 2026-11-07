@@ -1,0 +1,11 @@
+# SPECTRUM hyperparameters per dataset, used by reproduce.sh and ablations/.
+# M is not listed: it is 20 x the number of predicates in datasets/<dataset>/<dataset>.info.
+# cad and yelp have no test split; they are only mined (scaling ablation), with default settings.
+dataset	epsilon	D	M_multi	min_fidelity
+family	0.01	3	20	0.1
+umls	0.01	3	20	1
+kinship	0.01	3	40	1
+fb15k237	0.01	3	20	1
+wn18rr	0.01	3	20	0.1
+cad	0.01	3	20	1
+yelp	0.01	3	20	1

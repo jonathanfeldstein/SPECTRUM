@@ -1,0 +1,26 @@
+{
+    "logic": "psl",
+    "data_folder": "datasets/family/",
+    "info_file": "datasets/family/family.info",
+    "data_files": [
+        "train"
+    ],
+    "targets": [
+        "uncle",
+        "brother",
+        "nephew",
+        "son",
+        "wife",
+        "aunt",
+        "mother",
+        "father",
+        "sister",
+        "daughter",
+        "husband",
+        "niece"
+    ],
+    "output_folder": "results/family/",
+    "debug": false,
+    "verbose": true,
+    "force_cyclic": true
+}

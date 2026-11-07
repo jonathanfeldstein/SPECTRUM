@@ -1,0 +1,38 @@
+{
+    "logic": "psl",
+    "data_folder": "datasets/kinship/",
+    "info_file": "datasets/kinship/kinship.info",
+    "data_files": [
+        "train"
+    ],
+    "targets": [
+        "term15",
+        "term11",
+        "term12",
+        "term0",
+        "term21",
+        "term3",
+        "term2",
+        "term22",
+        "term16",
+        "term5",
+        "term9",
+        "term4",
+        "term6",
+        "term25",
+        "term20",
+        "term8",
+        "term7",
+        "term14",
+        "term10",
+        "term13",
+        "term17",
+        "term19",
+        "term18",
+        "term1"
+    ],
+    "output_folder": "results/kinship/",
+    "debug": false,
+    "verbose": true,
+    "force_cyclic": true
+}

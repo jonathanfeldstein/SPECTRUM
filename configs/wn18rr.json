@@ -1,0 +1,25 @@
+{
+    "logic": "psl",
+    "data_folder": "datasets/wn18rr/",
+    "info_file": "datasets/wn18rr/wn18rr.info",
+    "data_files": [
+        "train"
+    ],
+    "targets": [
+        "_verb_group",
+        "_also_see",
+        "_instance_hypernym",
+        "_member_of_domain_usage",
+        "_derivationally_related_form",
+        "_similar_to",
+        "_hypernym",
+        "_has_part",
+        "_member_of_domain_region",
+        "_member_meronym",
+        "_synset_domain_topic_of"
+    ],
+    "output_folder": "results/wn18rr/",
+    "debug": false,
+    "verbose": true,
+    "force_cyclic": true
+}

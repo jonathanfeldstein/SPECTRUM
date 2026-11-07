@@ -1,0 +1,19 @@
+{
+    "logic": "psl",
+    "data_folder": "datasets/yelp/",
+    "info_file": "datasets/yelp/yelp.info",
+    "data_files": [
+        "train"
+    ],
+    "targets": [
+        "friends",
+        "highRating",
+        "similarItems",
+        "lowRating",
+        "similarUsers"
+    ],
+    "output_folder": "results/yelp/",
+    "debug": false,
+    "verbose": true,
+    "force_cyclic": true
+}

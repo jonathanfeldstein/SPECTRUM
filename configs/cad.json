@@ -1,0 +1,33 @@
+{
+    "logic": "psl",
+    "data_folder": "datasets/cad/",
+    "info_file": "datasets/cad/cad.info",
+    "data_files": [
+        "train"
+    ],
+    "targets": [
+        "GlobalAct1",
+        "Act2",
+        "Act6",
+        "Act0",
+        "Act4",
+        "GlobalAct2",
+        "GlobalAct3",
+        "GlobalAct0",
+        "Act1",
+        "Act5",
+        "Act3",
+        "GlobalAct5",
+        "GlobalAct6",
+        "Same",
+        "Sequence",
+        "GlobalAct4",
+        "GlobalAct7",
+        "Close",
+        "Act7"
+    ],
+    "output_folder": "results/cad/",
+    "debug": false,
+    "verbose": true,
+    "force_cyclic": true
+}
